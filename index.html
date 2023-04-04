@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chatMe</title>
+    <script src="https://cdn.scaledrone.com/scaledrone.min.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="leftSide">
+          <img class="logo" src="./images/scaledrone-seeklogo.com.svg">
+          <h1>chatMe</h1>
+            <div class="member-count"></div>   
+            <ul class="member-list ">
+            </ul>   
+        </div>
+        <div class="msger">  
+          <div class="msger-chat"></div>
+          <form class="msger-inputarea" onsubmit="return false"> <!-- // form -->
+            <input type="text" class="msger-input" placeholder="Enter your message..."> <!-- // input -->
+            <button type="submit" class="msger-send-btn">Send</button>
+          </form>
+        </div>  
+    </div>
+ <script src="./app.js"></script>   
+</body>
+</html>
